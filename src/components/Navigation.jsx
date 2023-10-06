@@ -4,20 +4,22 @@ class Navigation extends Component {
     state = {  } 
     render() { 
         return (
-            <ul>
-                <li>
-                    About Me
-                </li>
-                <li>
-                    Portfolio
-                </li>
-                <li>
-                    Resume
-                </li>
-                <li>
-                    Contact
-                </li>
-            </ul>
+            <div className='d-flex align-items-center'>
+                <ul className='nav'>
+                    <li className='nav-item p-2'>
+                        About Me
+                    </li>
+                    <li className='nav-item p-2'>
+                        Portfolio
+                    </li>
+                    <li className='nav-item p-2'>
+                        Resume
+                    </li>
+                    <li className='nav-item p-2'>
+                        Contact
+                    </li>
+                </ul>
+            </div>
         );
     }
 }
