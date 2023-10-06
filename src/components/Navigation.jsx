@@ -5,7 +5,7 @@ class Navigation extends Component {
     render() { 
         return (
             <div className='d-flex align-items-center'>
-                <ul className='nav'>
+                <ul className='nav d-flex flex-wrap'>
                     <li className='nav-item p-2'>
                         About Me
                     </li>
