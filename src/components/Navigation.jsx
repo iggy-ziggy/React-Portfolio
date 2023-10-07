@@ -1,10 +1,7 @@
-// import React, { Component } from "react";
-// import Header from "./Header";
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <div>
-        {/* <Header /> */}
         <div className="d-flex align-items-center">
           <ul className="nav d-flex flex-wrap">
             <li className="nav-item p-2">

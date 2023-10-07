@@ -1,9 +1,8 @@
 import { useState } from 'react';
-// import Header from './Header';
-// import Footer from './Footer';
 import Navigation from './Navigation';
 import Home from './pages/Home';
 import About from './pages/About';
+// import Portfolio from './pages/'
 import Contact from './pages/Contact';
 
 export default function Header() {
@@ -16,9 +15,13 @@ export default function Header() {
         if (currentPage === 'About') {
             return <About />;
         }
-        if (currentPage === 'Contact') {
-            return <Contact />;
-        }
+        // if (currentPage === 'Portfolio') {
+        //     return <Portfolio />
+        // }
+        // if (currentPage === 'Resume') {
+        //     return <Resume />
+        // }
+        return <Contact />;
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
@@ -28,16 +31,15 @@ export default function Header() {
             <header className='fixed-top d-flex flex-row justify-content-between bg-secondary'>
                  <div>
                      <h1 className='p-2'>
-                         Matthew Haynes
+                         <a href="#home"
+                         onClick={() => handlePageChange('Home')}
+                         className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                         >Matthew Haynes</a>
                      </h1>
                  </div>
                  <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
              </header>
              <main className='mx-3'>{renderPage()}</main>
-            {/* <Header /> */}
-            {/* <Navigation currentPage={currentPage} handlePageChange={handlePageChange} /> */}
-            {/* <main className='mx-3'>{renderPage()}</main> */}
-            {/* <Footer /> */}
         </div>
     );
 }
