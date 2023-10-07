@@ -1,4 +1,6 @@
 import { useState } from 'react';
+// import Header from './Header';
+// import Footer from './Footer';
 import Navigation from './Navigation';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -23,8 +25,10 @@ export default function PortfolioContainer() {
 
     return (
         <div>
+            {/* <Header /> */}
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             <main className='mx-3'>{renderPage()}</main>
+            {/* <Footer /> */}
         </div>
     );
 }
