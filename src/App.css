@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+#nav-home,
+#nav-about,
+#nav-portfolio,
+#nav-resume,
+#nav-contact {
+  color: white;
+}
+
