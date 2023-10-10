@@ -34,7 +34,7 @@ export default function Header() {
         <div className='wrapper'>
             <header className='d-flex flex-row justify-content-between header'>
                  <div>
-                     <h1 className='p-2'>
+                     <h1 className='p-2 home-title'>
                          <a href="#home"
                          onClick={() => handlePageChange('Home')}
                          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}

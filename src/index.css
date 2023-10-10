@@ -27,6 +27,7 @@ html, body {
 .header, .footer {
   flex-grow: 0;
   flex-shrink: 0;
+  padding: 1.5rem;
   background-color: var(--dark);
 }
 .page-body {
@@ -58,6 +59,10 @@ a {
   
 }
 
+.home-title {
+  font-size: 2.5rem;
+}
+
 .title,
 #nav-home,
 #nav-about,
@@ -67,8 +72,12 @@ a {
   color: var(--teal);
 }
 
-.project-image {
+.nav-item {
+  /* font-size: 1rem; */
+}
 
+.project-image {
+  border-radius: 30px;
 }
 
 .gh-link,
@@ -78,5 +87,7 @@ a {
 }
 
 .container-fluid {
-  
+  padding: 5rem;
+  background-color: var(--dark);
+  border-radius: 20px;
 }
