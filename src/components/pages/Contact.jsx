@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div>
       <h2>Contact</h2>
-      <form>
+      <form className="">
         <div className="form-group">
           <label htmlFor="nameInput"></label>
           <input
@@ -32,6 +32,7 @@ export default function Contact() {
         </div>
         <button>Submit</button>
       </form>
+      <p className="">merkabafox@gmail.com</p>
     </div>
   );
 }

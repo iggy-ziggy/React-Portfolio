@@ -1,51 +1,44 @@
-// export default function Portfolio() {
-//     return (
-//         <div>
-//             <h2>Portfolio</h2>
-//         </div>
-//     );
-// }
 
 const projects = [
     {
         id: 1,
         title: 'title 1',
-        image: 'image 1',
+        image: 'https://collegeprepconsultant.com/wp-content/uploads/2016/12/placeholder-500x500.jpg',
         github: 'https://github.com/',
         deploy: 'https://www.youtube.com/'
     },
     {
         id: 2,
         title: 'title 2',
-        image: 'image 2',
+        image: 'https://collegeprepconsultant.com/wp-content/uploads/2016/12/placeholder-500x500.jpg',
         github: 'https://github.com/',
         deploy: 'https://www.youtube.com/'
     },
     {
         id: 3,
         title: 'title 3',
-        image: 'image 3',
+        image: 'https://collegeprepconsultant.com/wp-content/uploads/2016/12/placeholder-500x500.jpg',
         github: 'https://github.com/',
         deploy: 'https://www.youtube.com/'
     },
     {
         id: 3,
         title: 'title 4',
-        image: 'image 4',
+        image: 'https://collegeprepconsultant.com/wp-content/uploads/2016/12/placeholder-500x500.jpg',
         github: 'https://github.com/',
         deploy: 'https://www.youtube.com/'
     },
     {
         id: 3,
         title: 'title 5',
-        image: 'image 5',
+        image: 'https://collegeprepconsultant.com/wp-content/uploads/2016/12/placeholder-500x500.jpg',
         github: 'https://github.com/',
         deploy: 'https://www.youtube.com/'
     },
     {
         id: 3,
         title: 'title 6',
-        image: 'image 6',
+        image: 'https://collegeprepconsultant.com/wp-content/uploads/2016/12/placeholder-500x500.jpg',
         github: 'https://github.com/',
         deploy: 'https://www.youtube.com/'
     }
