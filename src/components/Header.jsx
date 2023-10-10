@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import Navigation from './Navigation';
+import Portfolio from './Portfolio';
 import Home from './pages/Home';
 import About from './pages/About';
-// import Portfolio from './pages/'
+// import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 export default function Header() {
@@ -15,12 +17,12 @@ export default function Header() {
         if (currentPage === 'About') {
             return <About />;
         }
-        // if (currentPage === 'Portfolio') {
-        //     return <Portfolio />
-        // }
-        // if (currentPage === 'Resume') {
-        //     return <Resume />
-        // }
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />
+        }
+        if (currentPage === 'Resume') {
+            return <Resume />
+        }
         return <Contact />;
     };
 
@@ -34,6 +36,7 @@ export default function Header() {
                          <a href="#home"
                          onClick={() => handlePageChange('Home')}
                          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                         id='nav-home'
                          >Matthew Haynes</a>
                      </h1>
                  </div>
