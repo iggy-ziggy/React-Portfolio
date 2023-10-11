@@ -3,8 +3,8 @@
   --gold: rgb(255, 214, 81);
   --coral: rgb(255, 165, 147);
   --purple: rgb(241, 195, 255);
-  --lightGrey: rgb(94, 91, 99);
-  --medGrey: rgb(65, 63, 67);
+  --lightGrey: rgb(79, 77, 83);
+  --medGrey: rgb(57, 55, 59);
   --darkGrey: rgb(40, 39, 42);
 }
 
@@ -110,7 +110,9 @@ a {
 }
 
 .about-image {
+  padding: 10px;
   margin-bottom: 5em;
+  border: solid var(--medGrey) 5px;
 }
 
 .about-p1,
@@ -138,7 +140,7 @@ a {
 
 .resume-btn {
   font-weight: bold;
-  color: var(--grey);
+  color: var(--lightGrey);
 }
 
 .container-fluid {
