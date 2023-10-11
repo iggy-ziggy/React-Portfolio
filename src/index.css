@@ -1,12 +1,13 @@
 :root {
-  --teal: rgb(101, 250, 255);
-  --gold: rgb(255, 196, 0);
+  --teal: rgb(135, 251, 255);
+  --gold: rgb(255, 214, 81);
   --coral: rgb(255, 142, 120);
-  --grey: rgb(87, 84, 89);
-  --dark: rgb(64, 62, 66);
+  --grey: rgb(65, 63, 67);
+  --dark: rgb(40, 39, 42);
 }
 
-html, body {
+html,
+body {
   box-sizing: border-box;
   height: 100%;
   padding: 0;
@@ -15,6 +16,10 @@ html, body {
 }
 
 * {
+  /* font-family: "Josefin Sans", sans-serif; */
+  /* font-family: "Kanit", sans-serif; */
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Ubuntu", sans-serif;
   color: white;
 }
 
@@ -24,7 +29,8 @@ html, body {
   display: flex;
   flex-direction: column;
 }
-.header, .footer {
+.header,
+.footer {
   flex-grow: 0;
   flex-shrink: 0;
   padding: 1.5rem;
@@ -56,7 +62,6 @@ ul {
 }
 
 a {
-  
 }
 
 .home-title {
@@ -70,6 +75,8 @@ a {
 #nav-resume,
 #nav-contact {
   color: var(--teal);
+  /* color: var(--coral); */
+  /* color: var(--gold); */
 }
 
 .nav-item {
@@ -82,8 +89,9 @@ a {
 
 .gh-link,
 .dep-link {
-  color: var(--gold);
+  /* color: var(--gold); */
   /* color: var(--coral); */
+  color: var(--teal);
 }
 
 .container-fluid {
