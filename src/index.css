@@ -1,9 +1,11 @@
 :root {
-  --teal: rgb(135, 251, 255);
+  --teal: rgb(145, 251, 255);
   --gold: rgb(255, 214, 81);
-  --coral: rgb(255, 142, 120);
-  --grey: rgb(65, 63, 67);
-  --dark: rgb(40, 39, 42);
+  --coral: rgb(255, 165, 147);
+  --purple: rgb(241, 195, 255);
+  --lightGrey: rgb(94, 91, 99);
+  --medGrey: rgb(65, 63, 67);
+  --darkGrey: rgb(40, 39, 42);
 }
 
 html,
@@ -12,7 +14,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  background-color: var(--grey);
+  background-color: var(--lightGrey);
 }
 
 * {
@@ -21,6 +23,7 @@ body {
   /* font-family: "Open Sans", sans-serif; */
   font-family: "Ubuntu", sans-serif;
   color: white;
+  font-size: 1.1rem;
 }
 
 .wrapper {
@@ -34,7 +37,7 @@ body {
   flex-grow: 0;
   flex-shrink: 0;
   padding: 1.5rem;
-  background-color: var(--dark);
+  background-color: var(--darkGrey);
 }
 .page-body {
   flex-grow: 1;
@@ -43,7 +46,7 @@ body {
 #root {
   text-align: center;
   height: 100vh;
-  background-color: var(--grey);
+  background-color: var(--lightGrey);
 }
 
 main {
@@ -75,12 +78,24 @@ a {
 #nav-resume,
 #nav-contact {
   color: var(--teal);
+  /* color: var(--purple); */
   /* color: var(--coral); */
   /* color: var(--gold); */
+  font-weight: bold;
 }
+
+/* #nav-about,
+#nav-portfolio,
+#nav-resume,
+#nav-contact {
+  border: solid var(--medGrey) .25em;
+  border-radius: 100px;
+} */
 
 .nav-item {
   /* font-size: 1rem; */
+  /* border: solid var(--medGrey) .25em;
+  border-radius: 100px; */
 }
 
 .project-image {
@@ -90,12 +105,46 @@ a {
 .gh-link,
 .dep-link {
   /* color: var(--gold); */
-  /* color: var(--coral); */
-  color: var(--teal);
+  color: var(--coral);
+  /* color: var(--teal); */
+}
+
+.about-image {
+  margin-bottom: 5em;
+}
+
+.about-p1,
+.about-p2 {
+  padding: 5px;
+}
+
+/* .skills-container,
+.portfolio-container {
+  background-color: var(--medGrey);
+  margin: 2em;
+  padding: 15px;
+  border-radius: 20px;
+  min-width: fit-content;
+} */
+
+.skills-list {
+  margin: 3em;
+}
+
+.skills-item {
+  font-size: 1.25em;
+  color: var(--coral);
+}
+
+.resume-btn {
+  font-weight: bold;
+  color: var(--grey);
 }
 
 .container-fluid {
   padding: 5rem;
-  background-color: var(--dark);
+  background-color: var(--darkGrey);
+  border: solid var(--medGrey) 2em;
   border-radius: 20px;
+  min-width: fit-content;
 }
