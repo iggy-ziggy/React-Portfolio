@@ -1,4 +1,6 @@
 import { useState } from 'react';
+// import Navbar from 'react-bootstrap/Navbar'
+import Footer from './Footer';
 import Navigation from './Navigation';
 import Portfolio from './Portfolio';
 import Home from './pages/Home';
@@ -29,10 +31,10 @@ export default function Header() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
-            <header className='fixed-top d-flex flex-row justify-content-between bg-secondary'>
+        <div className='wrapper'>
+            <header className='d-flex flex-row justify-content-between header'>
                  <div>
-                     <h1 className='p-2'>
+                     <h1 className='p-2 home-title'>
                          <a href="#home"
                          onClick={() => handlePageChange('Home')}
                          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
@@ -42,7 +44,8 @@ export default function Header() {
                  </div>
                  <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
              </header>
-             <main className='mx-3'>{renderPage()}</main>
+             <main className='page-body'>{renderPage()}</main>
+             <Footer />
         </div>
     );
 }
