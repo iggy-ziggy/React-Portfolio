@@ -4,7 +4,7 @@ export default function About() {
       <img
         className="about-image"
         src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"
-        style={{ width: 250, height: 250, borderRadius: 125 }}
+        style={{ width: 300, height: 300, borderRadius: 150 }}
       ></img>
       <p className="about-p1">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias pariatur
