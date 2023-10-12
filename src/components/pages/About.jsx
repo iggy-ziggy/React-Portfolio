@@ -3,7 +3,7 @@ export default function About() {
     <div>
       <img
         className="about-image"
-        src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnwAwRQEwRvQYCfXAgvnKUKjQ1KJKlNY2Yw&usqp=CAU"
         style={{ width: 300, height: 300, borderRadius: 150 }}
       ></img>
       <p className="about-p1">
