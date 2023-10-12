@@ -35,7 +35,7 @@ export default function Header() {
                      <h1 className='p-2 home-title'>
                          <a href="#home"
                          onClick={() => handlePageChange('Home')}
-                         className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                         className={currentPage === 'Home' ? 'nav-link active underline' : 'nav-link'}
                          id='nav-home'
                          >Matthew Haynes</a>
                      </h1>

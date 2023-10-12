@@ -1,17 +1,29 @@
 
 const projects = [
     {
-        title: 'Untitled New Project',
+        title: 'Random Password Generator',
         image: 'https://collegeprepconsultant.com/wp-content/uploads/2016/12/placeholder-500x500.jpg',
-        github: 'https://github.com/',
-        deploy: ''
+        github: 'https://github.com/iggy-ziggy/random-password-generator',
+        deploy: 'https://iggy-ziggy.github.io/random-password-generator/'
     },
     {
-        title: 'Artwork Critique App',
+        title: 'Code Quiz',
         image: 'https://collegeprepconsultant.com/wp-content/uploads/2016/12/placeholder-500x500.jpg',
-        github: 'https://github.com/iggy-ziggy/artwork-critique-app',
-        deploy: 'https://www.youtube.com/'
+        github: 'https://github.com/iggy-ziggy/code_quiz',
+        deploy: 'https://iggy-ziggy.github.io/code_quiz/'
     },
+    // {
+    //     title: 'Untitled New Project',
+    //     image: 'https://collegeprepconsultant.com/wp-content/uploads/2016/12/placeholder-500x500.jpg',
+    //     github: 'https://github.com/',
+    //     deploy: ''
+    // },
+    // {
+    //     title: 'Artwork Critique App',
+    //     image: 'https://collegeprepconsultant.com/wp-content/uploads/2016/12/placeholder-500x500.jpg',
+    //     github: 'https://github.com/iggy-ziggy/artwork-critique-app',
+    //     deploy: 'https://www.youtube.com/'
+    // },
     {
         title: 'Power Grid',
         image: 'https://collegeprepconsultant.com/wp-content/uploads/2016/12/placeholder-500x500.jpg',
