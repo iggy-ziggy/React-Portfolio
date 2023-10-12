@@ -154,6 +154,8 @@ a {
 
 i {
   font-size: 100px;
+  border-top: solid 3px grey;
+  border-radius: 10px;
+  padding: 10px;
   /* color: var(--gold); */
 }
-
