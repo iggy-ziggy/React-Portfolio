@@ -77,10 +77,10 @@ a {
 #nav-portfolio,
 #nav-resume,
 #nav-contact {
-  color: var(--teal);
+  /* color: var(--teal); */
   /* color: var(--purple); */
   /* color: var(--coral); */
-  /* color: var(--gold); */
+  color: var(--gold);
   font-weight: bold;
 }
 
@@ -149,4 +149,9 @@ a {
   border: solid var(--medGrey) 2em;
   border-radius: 20px;
   min-width: fit-content;
+}
+
+i {
+  font-size: 100px;
+  /* color: var(--gold); */
 }

@@ -1,38 +1,37 @@
 const skills = [
   {
-    name: "HTML",
+    name: "devicon-html5-plain-wordmark",
   },
   {
-    name: "CSS",
+    name: "devicon-css3-plain-wordmark",
   },
   {
-    name: "JavaScript",
+    name: "devicon-javascript-plain",
   },
   {
-    name: "Bootstrap",
+    name: "devicon-handlebars-plain-wordmark",
   },
   {
-    name: "Handlebars",
+    name: "devicon-bootstrap-plain-wordmark",
   },
   {
-    name: "React",
+    name: "devicon-react-original-wordmark",
   },
   {
-    name: "Node",
+    name: "devicon-mongodb-plain-wordmark",
   },
   {
-    name: "SQL",
+    name: "devicon-nodejs-plain",
   },
   {
-    name: "MongoDB",
+    name: "devicon-sequelize-plain",
   },
   {
-    name: "Express",
+    name: "devicon-graphql-plain-wordmark",
   },
   {
-    name: "PWA",
+    name: "devicon-express-original",
   },
 ];
-
 
 export default skills;
