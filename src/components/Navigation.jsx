@@ -1,71 +1,60 @@
-
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <div>
-        <div className="d-flex align-items-center">
-          <ul className="nav d-flex flex-wrap">
-            <li className="nav-item p-2">
-              <a
-                href="#about"
-                onClick={() => handlePageChange("About")}
-                className={currentPage === "About" ? "nav-link active" : "nav-link"}
-                id="nav-about"
-              >
-                About Me
-              </a>
-            </li>
-            <li className="nav-item p-2">
-              <a
+      <div className="d-flex align-items-center">
+        <ul className="nav d-flex flex-wrap">
+          <li className="nav-item p-2">
+            <a
+              href="#about"
+              onClick={() => handlePageChange("About")}
+              className={
+                currentPage === "About" ? "nav-link active" : "nav-link"
+              }
+              id="nav-about"
+            >
+              About Me
+            </a>
+          </li>
+          <li className="nav-item p-2">
+            <a
               href="#portfolio"
-              onClick={() => handlePageChange('Portfolio')}
-              className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+              onClick={() => handlePageChange("Portfolio")}
+              className={
+                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+              }
               id="nav-portfolio"
-              >Portfolio</a>
-            </li>
-            <li className="nav-item p-2">
-              <a
+            >
+              Portfolio
+            </a>
+          </li>
+          <li className="nav-item p-2">
+            <a
               href="#resume"
-              onClick={() => handlePageChange('Resume')}
-              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+              onClick={() => handlePageChange("Resume")}
+              className={
+                currentPage === "Resume" ? "nav-link active" : "nav-link"
+              }
               id="nav-resume"
-              >Resume</a>
-            </li>
-            <li className="nav-item p-2">
-              <a
+            >
+              Resume
+            </a>
+          </li>
+          <li className="nav-item p-2">
+            <a
               href="#contact"
-              onClick={() => handlePageChange('Contact')}
-              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+              onClick={() => handlePageChange("Contact")}
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
               id="nav-contact"
-              >Contact</a>
-            </li>
-          </ul>
-        </div>
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
-
-// class Navigation extends Component {
-//     state = {  }
-//     render() {
-//         return (
-//         <div className='d-flex align-items-center'>
-//             <ul className='nav d-flex flex-wrap'>
-//                 <li className='nav-item p-2'>
-//                     <a href="">About Me</a>
-//                 </li>
-//                 <li className='nav-item p-2'>
-//                     Portfolio
-//                 </li>
-//                 <li className='nav-item p-2'>
-//                     Resume
-//                 </li>
-//                 <li className='nav-item p-2'>
-//                     Contact
-//                 </li>
-//             </ul>
-//         </div>
-//     );
-// }
-// }
 
 export default Navigation;
