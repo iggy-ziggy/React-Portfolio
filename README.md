@@ -36,11 +36,11 @@ The Contact section will allow the user to leave their name, email, and a messag
 
 * Landing Page
 
-<img width="912" alt="Screenshot 2023-10-12 at 5 17 17 PM" src="https://github.com/iggy-ziggy/React-Portfolio/assets/128410000/15802658-7dcd-4c85-b54e-71f25e88d9e9">
+<img width="925" alt="Screenshot 2023-10-12 at 5 53 52 PM" src="https://github.com/iggy-ziggy/React-Portfolio/assets/128410000/69d0d722-6c5e-4e4f-828c-33afdaa5271c">
 
 * Portfolio
 
-<img width="911" alt="Screenshot 2023-10-12 at 5 17 28 PM" src="https://github.com/iggy-ziggy/React-Portfolio/assets/128410000/5b0b7de1-0a68-455f-a4a8-8c52dc3bcfe1">
+<img width="924" alt="Screenshot 2023-10-12 at 5 54 00 PM" src="https://github.com/iggy-ziggy/React-Portfolio/assets/128410000/2d5c62c6-c506-4c8a-a4cd-540febe7e7a6">
 
 * Skills
 
