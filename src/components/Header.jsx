@@ -1,16 +1,14 @@
 import { useState } from 'react';
-// import Navbar from 'react-bootstrap/Navbar'
 import Footer from './Footer';
 import Navigation from './Navigation';
 import Portfolio from './Portfolio';
 import Home from './pages/Home';
 import About from './pages/About';
-// import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 export default function Header() {
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
         if (currentPage === 'Home') {
@@ -49,23 +47,3 @@ export default function Header() {
         </div>
     );
 }
-// import React, { Component } from 'react';
-// // import Navigation from './Navigation';
-
-// class Header extends Component {
-//     // state = {  } 
-//     render() { 
-//         return (
-//             <header className='fixed-top d-flex flex-row justify-content-between bg-secondary'>
-//                 <div>
-//                     <h1 className='p-2'>
-//                         Matthew Haynes
-//                     </h1>
-//                 </div>
-//                 {/* <Navigation /> */}
-//             </header>
-//         );
-//     }
-// }
- 
-// export default Header;
