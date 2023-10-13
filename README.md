@@ -32,6 +32,8 @@ The Resume page contains a list of relevant skill and an option to download my r
 
 The Contact section will allow the user to leave their name, email, and a message.
 
+Live site: https://main--jocular-profiterole-787a4e.netlify.app/#about
+
 ### Images
 
 * Landing Page
