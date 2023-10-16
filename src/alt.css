@@ -104,6 +104,14 @@
     text-align: center;
     margin: 1rem;
   }
+
+  .about-p1 {
+    font-size: 1.25rem;
+  }
+
+  .about-p2 {
+    font-size: 1rem;
+  }
   
   .about-text {
     /* border: solid 2px lime; */
