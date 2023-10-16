@@ -18,10 +18,6 @@ body {
 }
 
 * {
-  /* font-family: "Josefin Sans", sans-serif; */
-  /* font-family: "Kanit", sans-serif; */
-  /* font-family: "Open Sans", sans-serif; */
-  /* font-family: "Ubuntu", sans-serif; */
   font-family: 'Nunito', sans-serif;
   color: white;
   font-size: 1.1rem;
@@ -33,16 +29,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-.header,
-.footer {
-  flex-grow: 0;
-  flex-shrink: 0;
-  padding: 1.5rem;
-  background-color: var(--darkGrey);
-}
-.page-body {
+
+/* .page-body {
   flex-grow: 1;
-}
+} */
 
 #root {
   text-align: center;
@@ -111,14 +101,14 @@ a {
 }
 
 .about-image {
-  padding: 10px;
-  margin-bottom: 5em;
+  /* padding: 10px; */
+  /* margin-bottom: 5em; */
   border: solid var(--medGrey) 5px;
 }
 
 .about-p1,
 .about-p2 {
-  padding: 5px;
+  /* padding: 5px; */
 }
 
 /* .skills-container,
@@ -158,4 +148,43 @@ i {
   border-radius: 10px;
   padding: 10px;
   /* color: var(--gold); */
+}
+
+.flex-container {
+  display: flex;
+}
+
+/* .header {
+  margin-right: auto;
+  flex-basis: 100px;
+  flex-grow: 2;
+} */
+
+/* .nav-item {
+  flex-basis: 25px;
+  flex-grow: 1;
+} */
+
+/* .home-title {
+
+} */
+
+/* testing */
+
+.wrapper,
+.flex-container,
+.header,
+.footer {
+  border: solid 2px rgb(140, 102, 175);
+}
+
+.header-title,
+.nav,
+.about-image,
+.about-text {
+  border: solid 2px lime;
+}
+
+.nav-item {
+  border: solid 2px orange;
 }

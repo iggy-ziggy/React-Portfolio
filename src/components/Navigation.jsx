@@ -1,8 +1,7 @@
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <div>
-      <div className="d-flex align-items-center">
-        <ul className="nav d-flex flex-wrap">
+    <>     
+        <ul className="nav-list">
           <li className="nav-item p-2">
             <a
               href="#about"
@@ -12,7 +11,7 @@ function Navigation({ currentPage, handlePageChange }) {
               }
               id="nav-about"
             >
-              About Me
+              About
             </a>
           </li>
           <li className="nav-item p-2">
@@ -51,9 +50,8 @@ function Navigation({ currentPage, handlePageChange }) {
               Contact
             </a>
           </li>
-        </ul>
-      </div>
-    </div>
+        </ul>     
+    </>
   );
 }
 
