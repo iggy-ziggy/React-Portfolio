@@ -5,7 +5,6 @@ import projects from './pages/Portfolio';
 function Portfolio() {
     return (
         <div className='portfolio-container'>
-            <div className='container-fluid'>
             <div className='row mb-4'>
                 {projects.map(function(project, index) {
                     return (
@@ -20,7 +19,6 @@ function Portfolio() {
                         </ul>
                     )
                 })}
-            </div>
             </div>
         </div>
     )

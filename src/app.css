@@ -20,6 +20,8 @@ body {
   height: 100vh;
 }
 
+
+
 * {
   /* height: 100vh;
     width: 100vw; */
@@ -88,6 +90,7 @@ a:hover {
 
 .page-body {
   margin: 1rem;
+  display: flex;
 }
 
 /* About page */
@@ -108,10 +111,17 @@ a:hover {
 
 /* portfolio */
 
+.portfolio-container {
+    /* flex-direction: row; */
+    margin-top: 4rem;
+}
+
 .project-image {
   width: 275px;
   height: 275px;
 }
+
+
 
 /* resume */
 
@@ -149,5 +159,8 @@ a:hover {
   }
   .container-fluid {
     margin-top: 4rem;
+  }
+  .portfolio-container {
+    margin-top: 6rem;
   }
 }
