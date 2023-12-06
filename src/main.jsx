@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
-import './index.css'
+// import './index.css'
+import './alt.css'
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
