@@ -14,9 +14,11 @@
       padding: 0; */
     background-color: var(--medGrey);
     color: white;
+    font-family: 'Nunito', sans-serif;
   }
-  
+
   .wrapper {
+    
   }
   
   html,

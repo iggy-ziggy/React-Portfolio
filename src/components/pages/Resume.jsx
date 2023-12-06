@@ -23,17 +23,15 @@ const Resume = () => {
       <center>
         <h1 className="title">Skills</h1>
         <div className="skills-container">
-          <div className="d-flex container-fluid p-5 skills-list">
-            <div className="row mb-4">
+              <ul className="row mb-4 skills-list">
               {skills.map(function (skill, index) {
                 return (
-                  <ul className="col mx-4" key={index}>
-                    <i className={skill.name}></i>                    
-                  </ul>
+                  <li className="col mx-4 skills-li" key={index}>
+                    <i className={skill.name} id="skill-item"></i>                    
+                  </li>
                 );
               })}
-            </div>
-          </div>
+              </ul>
         </div>
         <button
           className="btn-warning rounded-pill resume-btn"
