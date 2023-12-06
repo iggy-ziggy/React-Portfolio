@@ -1,145 +1,153 @@
 /* root */
 :root {
-    --teal: rgb(145, 251, 255);
-    --gold: rgb(255, 214, 81);
-    --coral: rgb(255, 165, 147);
-    --purple: rgb(241, 195, 255);
-    --lightGrey: rgb(79, 77, 83);
-    --medGrey: rgb(57, 55, 59);
-    --darkGrey: rgb(40, 39, 42);
-  }
+  --teal: rgb(145, 251, 255);
+  --darkTeal: rgb(59, 231, 220);
+  --gold: rgb(255, 214, 81);
+  --coral: rgb(255, 165, 147);
+  --purple: rgb(241, 195, 255);
+  --lightGrey: rgb(79, 77, 83);
+  --medGrey: rgb(57, 55, 59);
+  --darkGrey: rgb(40, 39, 42);
+}
 
 /* wrapper */
 
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 * {
-    /* height: 100vh;
+  /* height: 100vh;
     width: 100vw; */
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
-    /* margin: 0;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  /* margin: 0;
       padding: 0; */
-    background-color: var(--medGrey);
-    color: white;
-    font-family: 'Nunito', sans-serif;
-    /* border: solid 2px orange; */
+  background-color: var(--medGrey);
+  color: white;
+  font-family: "Nunito", sans-serif;
+  /* border: solid 2px orange; */
 }
 
 .wrapper {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    /* border: solid 2px orange;  */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* border: solid 2px orange;  */
+}
+
+a {
+  transition: color 0s ease-in-out;
+}
+
+a:hover {
+  color: var(--darkTeal) !important;
 }
 
 /* header and nav */
 
 .header {
-    padding: 1rem;
-    /* font-size: large; */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
-    align-items: center;
-    
+  padding: 1rem;
+  /* font-size: large; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-title {
-    /* text-align: center; */
-    /* border: solid 2px lime; */
-    font-size: 3rem;
-    /* margin-right: auto; */
-    flex-grow: 2;
-  }
-  
-  .nav-list {
-    /* border: solid 2px lime; */
-    padding: 0.5rem;
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  .nav-item {
-    /* border: solid 2px orange; */
-    font-size: 1.1rem;
-  }
+  /* text-align: center; */
+  /* border: solid 2px lime; */
+  font-size: 3rem;
+  /* margin-right: auto; */
+  flex-grow: 2;
+}
 
-.page-body{
-    margin: 1rem;
+.nav-list {
+  /* border: solid 2px lime; */
+  padding: 0.5rem;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-item {
+  /* border: solid 2px orange; */
+  font-size: 1.1rem;
+  border-radius: 6px;
+  /* transition: box-shadow 0.3s ease-in-out; */
+}
+
+.page-body {
+  margin: 1rem;
 }
 
 /* About page */
 
 .about-content {
-    padding: 1rem;
-    /* flex-grow: 1; */
-    transition: box-shadow 0.3s ease-in-out;
+  padding: 1rem;
+  /* flex-grow: 1; */
 }
 
 .about-image {
-    /* flex-grow: 1; */
+  /* flex-grow: 1; */
 }
 
 .about-text {
-    margin-top: 3.5rem;
-    /* flex-grow: 2; */
+  margin-top: 3.5rem;
+  /* flex-grow: 2; */
 }
 
 /* portfolio */
 
 .project-image {
-    width: 275px;
-    height: 275px;
+  width: 275px;
+  height: 275px;
 }
 
 /* resume */
 
 .skills-container {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .skills-li {
-    margin: 3rem;
+  margin: 3rem;
 }
 
 #skill-item {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 /* contact */
 
-
-
 /* @media */
 
 @media only screen and (min-width: 600px) {
-    .about-text {
-      font-size: larger;
-    }
+  .about-text {
+    font-size: larger;
+  }
 }
 
 @media only screen and (min-width: 800px) {
-    .about-image {
-        width: 400px !important;
-        height: 400px !important;
-        border-radius: 200px !important;
-    }
-    .project-image {
-        height: 300px;
-        width: 300px;
-    }
-    .container-fluid {
-        margin-top: 4rem;
-    }
+  .about-image {
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 200px !important;
+  }
+  .project-image {
+    height: 300px;
+    width: 300px;
+  }
+  .container-fluid {
+    margin-top: 4rem;
+  }
 }
