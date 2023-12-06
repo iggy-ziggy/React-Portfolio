@@ -116,12 +116,29 @@ a:hover {
     margin-top: 4rem;
 }
 
+.project-item {
+    margin-bottom: 5rem;
+}
+
+.project-title {
+    margin: .75rem;
+}
+
 .project-image {
   width: 275px;
   height: 275px;
+  border: 5px solid var(--lightGrey);
 }
 
-
+.deploy-link,
+.git-hub-link {
+    color: var(--gold);
+    font-weight: bold;
+    padding: 4px;
+    /* background-color: black; */
+    border: 2px solid var(--gold);
+    border-radius: 12px;
+}
 
 /* resume */
 
