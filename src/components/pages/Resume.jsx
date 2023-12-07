@@ -21,24 +21,25 @@ const Resume = () => {
   return (
     <>
       <center>
-        <h1 className="title">Skills</h1>
+      <button
+          className="rounded-pill resume-btn"
+          onClick={onButtonClick}
+        >
+          Download Resume
+        </button>
+        <h1 className="skills-title">Skills</h1>
         <div className="skills-container">
               <ul className="row mb-4 skills-list">
               {skills.map(function (skill, index) {
                 return (
                   <li className="col mx-4 skills-li" key={index}>
-                    <i className={skill.name} id="skill-item"></i>                    
+                    <i className={skill.name} id="skill-item"></i>
+                    <p className="skill-title">{skill.title}</p>                   
                   </li>
                 );
               })}
               </ul>
         </div>
-        <button
-          className="btn-warning rounded-pill resume-btn"
-          onClick={onButtonClick}
-        >
-          Download Resume
-        </button>
       </center>
     </>
   );

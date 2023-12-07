@@ -1,6 +1,9 @@
+import Messenger from "../Messenger";
+
 export default function About() {
   return (
     <div className="about-content">
+      <Messenger />
       <img
         className="about-image"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnwAwRQEwRvQYCfXAgvnKUKjQ1KJKlNY2Yw&usqp=CAU"
