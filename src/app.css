@@ -171,28 +171,39 @@ a:hover {
 
 /* resume */
 
-.skills-title {
-    margin-top: 4rem;
+.tech-title {
+    margin-top: 6rem;
+}
+
+.tech-container {
+  margin: 6rem 0 4rem 0;
 }
 
 .skills-container {
-  margin: 4rem 0 4rem 0;
+    margin: 0 0 4rem 0;
 }
 
-.skills-list {}
+.skills-title {
+    margin: 0 0 4rem 0;
+}
 
+.tech-li,
 .skills-li {
   margin: 3rem;
   animation: scrollIn 1s ease-in-out;
 }
 
-#skill-item {
+#tech-item {
   color: var(--gold);
   font-size: 5rem;
   flex-grow: 1;
 }
 
-.skill-title {
+.skills-li {
+    color: var(--gold);
+}
+
+.tech-item-title {
     margin: 1rem;
 }
 
@@ -271,6 +282,7 @@ a:hover {
   .portfolio-container {
     margin-top: 6rem;
   }
+  .tech-container,
   .skills-container {
     display: inline-block;
     width: 75%;
