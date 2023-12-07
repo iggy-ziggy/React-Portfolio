@@ -1,36 +1,36 @@
 const skills = [
   {
-    name: "devicon-html5-plain-wordmark",
+    name: "Object-oriented Programming",
   },
   {
-    name: "devicon-css3-plain-wordmark",
+    name: "Problem Solving",
   },
   {
-    name: "devicon-javascript-plain",
+    name: "<another skill>",
   },
   {
-    name: "devicon-handlebars-plain-wordmark",
+    name: "<another skill>",
   },
   {
-    name: "devicon-bootstrap-plain-wordmark",
+    name: "<another skill>",
   },
   {
-    name: "devicon-react-original-wordmark",
+    name: "<another skill>",
   },
   {
-    name: "devicon-mongodb-plain-wordmark",
+    name: "<another skill>",
   },
   {
-    name: "devicon-nodejs-plain",
+    name: "<another skill>",
   },
   {
-    name: "devicon-sequelize-plain",
+    name: "<another skill>",
   },
   {
-    name: "devicon-graphql-plain-wordmark",
+    name: "<another skill>",
   },
   {
-    name: "devicon-express-original",
+    name: "<another skill>",
   },
 ];
 

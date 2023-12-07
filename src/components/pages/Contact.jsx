@@ -40,9 +40,9 @@ function Contact() {
   };
 
   return (
-    <div className="container text-center">
-      <h1 className="title">Contact</h1>
-      <form className="form" onSubmit={handleFormSubmit}>
+    <div className="container contact-container text-center">
+      <h1 className="contact-title">Contact</h1>
+      <form className="form contact-form" onSubmit={handleFormSubmit}>
         <div className="form-group">
           <input
             value={userName}
@@ -74,9 +74,11 @@ function Contact() {
             rows="3"
           ></textarea>
         </div>
-        <button type="submit" className="btn-warning rounded-pill">
-          Submit
-        </button>
+        <div className="contact-button-div">
+          <button type="submit" className="btn-warning rounded-pill">
+            Submit
+          </button>
+        </div>
       </form>
       {errorMessage && (
         <div>
