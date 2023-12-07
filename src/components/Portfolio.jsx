@@ -13,8 +13,8 @@ function Portfolio() {
                                 
                                 <img className='project-image p-2' src={project.image}></img>
                                 <h2 className='project-title p-2'>{project.title}</h2>
-                                <a href={project.github} className='text-decoration-none git-hub-link' style={{margin: 10}}>GitHub</a>
-                                <a href={project.deploy} className='text-decoration-none deploy-link' style={{margin: 10}}>Deploy</a>
+                                <a href={project.github} className='text-decoration-none git-hub-link' style={{margin: 10}} target="_blank" rel="noopener noreferrer">GitHub</a>
+                                <a href={project.deploy} className='text-decoration-none deploy-link' style={{margin: 10}} target="_blank" rel="noopener noreferrer">Deploy</a>
                             </li>
                         </ul>
                     )
