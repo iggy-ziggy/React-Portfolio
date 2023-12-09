@@ -23,7 +23,7 @@ const Resume = () => {
     <>
       <center>
       <button
-          className="rounded-pill resume-btn"
+          className="rounded-pill btn-warning resume-btn"
           onClick={onButtonClick}
         >
           Download Resume
