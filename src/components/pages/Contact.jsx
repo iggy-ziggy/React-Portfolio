@@ -75,7 +75,7 @@ function Contact() {
           ></textarea>
         </div>
         <div className="contact-button-div">
-          <button type="submit" className="btn-warning rounded-pill">
+          <button type="submit" className="contact-button btn-warning rounded-pill">
             Submit
           </button>
         </div>
